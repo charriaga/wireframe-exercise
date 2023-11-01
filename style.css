@@ -1,0 +1,74 @@
+header, footer {
+    background-color: rgb(50, 50, 50);
+    
+}
+
+nav {
+    color: lightgray;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.three {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+
+.last {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    width: 92%;
+
+}
+
+.last img {
+    display: flex;
+    flex: 1;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 400px;
+    gap: 10;
+}
+
+article p {
+    display: flex;
+    height: 330px;
+    overflow: scroll;
+    margin-bottom: 10px;
+}
+
+article button {
+    width: 30%;
+    height: 10%;
+    border-radius: 3%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+div {
+    height: 100px;
+}
